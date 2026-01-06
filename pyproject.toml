@@ -8,9 +8,6 @@ version = "1.0.0"
 
 description = "Traveling merchant package for BallsDex V3. Provides rotating offers, admin-managed item pool, and slash commands for browsing and purchasing collectibles."
 license = "MIT"
-authors = [
-    { name = "Haymooed", email = "" },
-]
 readme = "README.md"
 
 dependencies = [
