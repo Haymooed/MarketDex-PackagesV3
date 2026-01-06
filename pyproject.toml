@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ballsdex-merchant"
+version = "1.0."
+
+description = "Traveling merchant package for BallsDex V3. Provides rotating offers, admin-managed item pool, and slash commands for browsing and purchasing collectibles."
+license = "MIT"
+authors = [
+    { name = "Haymooed", email = "" },
+]
+readme = "README.md"
+
+dependencies = [
+
+]
