@@ -1,0 +1,1 @@
+from merchant.models import *
