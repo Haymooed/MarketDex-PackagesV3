@@ -16,7 +16,7 @@ from asgiref.sync import sync_to_async
 from bd_models.models import BallInstance, Player
 from settings.models import settings
 
-# FIX: Changed from .models to ..models to correctly reach the parent directory
+# Use two dots (..) to go up to the parent directory where models.py lives
 from ..models import MerchantItem, MerchantPurchase, MerchantRotation, MerchantRotationItem, MerchantSettings
 
 if TYPE_CHECKING:
