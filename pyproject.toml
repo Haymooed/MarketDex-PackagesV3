@@ -1,15 +1,17 @@
-[build-system]
-requires = ["setuptools>=61.0"]
-build-backend = "setuptools.build_meta"
-
 [project]
-name = "ballsdex-merchant"
+name = "Merchant"
 version = "1.0.0"
 
-description = "Traveling merchant package for BallsDex V3. Provides rotating offers, admin-managed item pool, and slash commands for browsing and purchasing collectibles."
-license = "MIT"
+description = "A merchant that has new balls everyday!"
+license = "MIT"  # replace with your own license
+license-files = ["LICENSE"]
+authors = [
+    { name = "haymooed" },
+]
 readme = "README.md"
 
 dependencies = [
-
+    # you can require a specific version of ballsdex here
+    "ballsdex>=3.0.0",
+    # and extra dependencies if needed
 ]

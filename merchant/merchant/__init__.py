@@ -12,8 +12,8 @@ log = logging.getLogger("ballsdex.packages.merchant")
 LOGO = textwrap.dedent(r"""
     +---------------------------------------+
     |     BallsDex Merchant Pack v3        |
-    |       Custom Market System           |
-    |     Licensed under MIT               |
+    |           By Haymooed                |
+    |        Licensed under MIT            |
     +---------------------------------------+
 """).strip()
 
