@@ -26,12 +26,3 @@ All configuration is handled through the admin panel:
   - Selectable pool with price, weight, optional special
 - Rotations & purchases are recorded for visibility/audit.
 
-## Commands (slash, app_commands)
-
-- `/merchant view` — show current offers (rotations refresh automatically).
-- `/merchant buy <id>` — purchase the selected offer; creates a `BallInstance`, charges price, and enforces cooldowns.
-
-## Notes
-
-- Rotations are created automatically when the merchant is enabled and the item pool is non-empty.
-- Does not randomize HP and ATK
